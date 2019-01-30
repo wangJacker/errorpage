@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0027)http://www.kugou.com/dfdfdf -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<title>KUGOU7</title>
+<link rel="stylesheet" href="./404/notfound.css" type="text/css">
+</head>
+
+<body>
+<div class="notFound">
+	<div>前方在施工，<span id="time">10</span>秒后将回到<a id="addr" hidfocus="true" href="http://www.yelangsem.com">首页</a></div>
+</div>
+
+<script type="text/javascript">
+var el = document.getElementById("time");
+var request = '/dfdfdf';
+if(request.length > 0){
+	var reg = /^\/(\w+)\//;
+	var arr = request.match(reg);
+	if(arr){
+		switch(arr[1]){
+			case "musicLibrary":
+				request = "http://www.yelangsem.com"; 
+				break;
+			case "mv":
+				request = "http://www.yelangsem.com"; 
+				break;
+			case "fm":
+				request = "http://www.yelangsem.com/goods-7.html"; 
+				break;
+			case "musicrank2":
+				request = "http://www.yelangsem.com/goods-7.html"; 
+				break;
+			case "musicrank3":
+				request = "http://www.yelangsem.com/goods-7.html"; 
+				break;
+			case "musicrankk7":
+				request = "http://www.yelangsem.com/goods-7.html";  
+				break;
+			case "musicranks":
+				break;
+			case "appstore":
+				break;
+			default:
+				request = "http://www.yelangsem.com/goods-7.html";
+		}
+	} else {
+		request = "http://www.yelangsem.com/goods-7.html";
+	}
+} else {
+	request = "http://www.yelangsem.com/goods-7.html";
+}
+//alert(request)
+document.getElementById("addr").href = request;
+
+setInterval(function(){
+	var val = Number(el.innerHTML);
+	if(val <= 1){
+		location.replace(request);	
+	}else{
+		el.innerHTML = val - 1;
+	}
+},1000)
+</script>
+
+</body></html>

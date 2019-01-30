@@ -1,0 +1,26 @@
+body {
+	background:#fff;
+}
+.wrongC {
+	position:relative;
+	color:#0c5082;
+	width:798px;
+	height:315px;
+	margin:160px auto 0;
+	overflow:hidden;
+}
+.wrongC .btn_an {
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.w404 {
+	background:url(cw_404.jpg); 0 0 no-repeat;
+}
+.w404 .btn_an {
+	top:265px;
+	left:440px;
+	width:102px;
+	height:31px;
+}

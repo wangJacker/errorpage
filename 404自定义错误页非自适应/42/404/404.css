@@ -1,0 +1,47 @@
+/**
+*
+* name        : 404
+* version     : 1.0
+* last change : 13/3/12
+* author      : hanghaining@leho.com
+* explain     : 404Ò³ÃæÑùÊ½
+*
+************************************************************
+*
+**/
+
+/* css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,select,optgroup,option,p,blockquote,th,td {margin:0; padding:0;}
+fieldset,img{border:0;}
+html,body{ height:100%;}
+address,caption,cite,code,dfn,em,i,th,var,optgroup{font-style:normal; font-weight:normal;}
+ins{text-decoration:none;}
+li{list-style:none;}
+table{font-size:inherit; border-collapse:collapse;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0; font-variant:normal;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit;}
+input,button,textarea,select{margin:0; *font-size:100%; line-height:1.2;}
+input,textarea,select{outline:none;}
+a img,img{-ms-interpolation-mode:bicubic;}
+
+html, body{ height:100%;}
+body{ font:12px/1.5 arial,SimSun,helvetica,sans-serif; background-color:#f3f3f3; color:#333;}
+
+/*header*/
+.header{ height:160px; border-bottom:2px solid #666; text-align:center; background-color:#fff; }
+.error-logo{ width:183px; height:160px; margin:0 auto;}
+.logo{ display:block; width:183px; height:160px; background:url(logo.gif) no-repeat;}
+
+/* main */
+.main{ width:884px; margin:73px auto 0; }
+.error-info{ width:654px; height:212px; padding:45px 0 0 230px; background:url(main-bg.png) no-repeat;}
+.error-title{ display:block; width:145px; height:60px; text-align:center; font:20px/60px "Microsoft YaHei"; color:#333;}
+.error-list{ margin-top:25px;}
+.error-list a,
+.error-list li span{ color:#f08200; font:12px/22px SimSun;}
+.error-list li{ height:22px; font:12px/22px SimSun;}
+.error-list li em{ display:inline-block; width:14px; height:14px; margin-right:10px; text-align:center; font:10px/14px Arial; color:#fff; background-color:#f08200;}

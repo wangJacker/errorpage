@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+/*图片引用*/
+.errorCon,.errMsg { background:url(../404/error.png) no-repeat;}
+
+
+.errorCon{ margin-top:75px; background-position:0 -124px; padding-left:250px; margin-left:120px; overflow:hidden; height:470px;}
+.errorCon .spanT24,.errorCon .spanT36,.errorCon .spanT18{ font-family:SimHei, MsYahei; font-weight:normal; font-weight:normal\9; text-indent:-999px;}
+.errorCon .spanT24{ font-size:24px;color:#be0101;display:block; line-height:42px;}
+.errorCon .spanT36{ font-size:36px;color:#be0101;display:block; line-height:42px;}
+.errorCon .spanT18{ font-size:18px;color:#333; display:block; line-height:36px;}
+.errorCon .errMsg{ padding-left:42px; height:115px; overflow:hidden; position:relative; margin-top:30px; margin-bottom:35px; display:block; width:560px; background-position:0 0;}
+.errorCon .errMsg b{ display:block; width:36px; height:35px; position:absolute; left:0; top:5px;}
+.errorCon .newsList{ width:365px;}
+.errorCon .newsList li{ width:337px; overflow:hidden;}
+.errorCon .newsList .clumnTit{ background:#efefef;}

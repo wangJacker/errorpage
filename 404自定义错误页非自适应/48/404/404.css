@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 全局*/
+body,input,ul,li{ margin: 0; padding: 0;}
+.clear{ clear: both;}
+
+/*背景*/
+.Fof_Bg{
+	background-image:url(404_04.jpg);
+	background-repeat: repeat-x;
+	width: 800px;
+	height: 497px;
+	margin: 0 auto;
+}
+
+.Center_Box{
+		width: 800px;
+		margin:0 auto;
+}
+
+	/*左边404怪兽图像*/
+	.Monster_Left{
+			background-image: url(404_05.jpg);
+			background-repeat: no-repeat;
+			background-position: 0 100%;
+			width: 	269px;
+			height: 497px;
+			float: left;
+	}
+	
+	/*右边404信息*/
+	.Infor_Right{float: left;}
+	
+		.Text_Fof_Bg{
+				background-image: url(404_02.jpg);
+				background-repeat: no-repeat;
+				width: 372px;
+				height: 286px;
+
+		}
+		
+		.Key_Fof{ 
+				width: 460px; 				
+		}
+			.Key_Title{
+				background-image: url(404_06.jpg);
+				background-repeat: no-repeat;
+				width: 259px;
+				height: 39px;
+			}
+			.Key_Name{ margin-left: 58px; margin-top:10px;}
+				.Key_Name ul{ list-style: none;}
+				.Key_Name li{ 
+						float: left; width:80px; 
+				}
+				.Key_Name a{
+						font-family: "宋体";
+						font-size: 12px;
+						color: #666;
+						line-height: 24px;
+						text-decoration: none;
+						margin-right: 8px;
+				}
+				
+				.Search_Fof{
+						margin-left: 58px;
+				}
+		
+					.Search_Bg{
+							background-image: url(404_10.jpg); 
+							background-repeat: no-repeat;
+							width: 308px;
+							height: 71px;
+							border: none;
+							*border: 0;
+							padding-left: 30px;
+							line-height: 0;
+							line-height: 71px\9;
+							font-size: 14px;
+							font-family: "宋体";
+							color: #666;
+							float: left;
+					}
+					
+					.Search_Btn{
+							background-image: url(images/404_11.jpg);
+							background-repeat: no-repeat;
+							width: 71px;
+							height: 71px;
+							border: none;
+							*border: 0;
+							cursor: pointer;
+							float: left;
+					}
+					

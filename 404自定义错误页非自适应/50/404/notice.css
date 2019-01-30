@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul,li,dl,dt,dd,p,span,img{ margin:0; padding:0}
+html,body{ background:#f6f6f6}
+li{ list-style:none}
+img{ display:block}
+.min{ width:100%; min-width:960px; margin:0 auto; padding:8px 0 10px; height:445px; background:url(bg.png) repeat-x}
+.min-msg{ width:100%; min-width:960px; margin:0 auto; background:url(center.jpg) center top no-repeat; padding:240px 0 0; font-size:18px; color:#666666; line-height:40px; text-align:center;}
+.min-msg .one{ display:inline-block; *display:inline; zoom:1; text-align:left; margin:0 auto; font-family:"微软雅黑"}
+.min-msg a{ font-family:"微软雅黑"; color:#06F; text-decoration:none}
+.min-msg a:hover{ text-decoration:underline}
+.btm{ height:160px; width:960px; overflow:hidden; margin:0 auto; padding:0 0 100px}
+.logo{ display:block; padding:0 0 0 160px;  height:160px; background:url(logo.gif) no-repeat 0 -18px; float:right;}
+.logo li{ height:26px; line-height:26px; font-size:12px; color:#5f1a07; font-family:"宋体"; padding-top:10px;}
+.logo li strong{ color:#e66c00; font-size:16px; font-family:"微软雅黑"; }
+.yellow{ color:#e66c00}
+#time{ color:#06F}

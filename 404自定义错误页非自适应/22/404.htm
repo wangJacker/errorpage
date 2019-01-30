@@ -1,0 +1,190 @@
+ <html xmlns="http://www.w3.org/1999/xhtml"> 
+ <head> 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ <title>404 您输入的地址无法访问޷</title> 
+ </head> 
+  
+ <body> 
+ <style type="text/css"> 
+ <!-- 
+body { 
+font-size: 12px; 
+font-family: Tahoma, Arial, "宋体"; 
+background-color: white; 
+margin: 0px; 
+padding: 0px; 
+} 
+  
+a:link, 
+a:visited { 
+text-decoration: none; 
+color: #333399; 
+} 
+a:hover { 
+text-decoration: underline; 
+color:#0000FF; 
+} 
+hr { 
+height: 1px; 
+border: 0; 
+border-top: 1px solid #CCCCCC; 
+} 
+  
+/****** Main Layout Styles ******/ 
+#wrapper { 
+text-align: center; 
+margin: 10px; 
+} 
+#header { 
+padding: 6px; 
+font-size: 14px; 
+border: solid 1px #CCCCCC; 
+background-color: #F8F8F5; 
+} 
+#header h4{ 
+padding: 5px; 
+font-size: 16px; 
+font-weight: bold; 
+display: inline; 
+} 
+.desc { 
+padding: 5px; 
+color: #666666; 
+font-size: 12px; 
+} 
+.content { 
+width: 100%; 
+} 
+.section{ 
+width: 450px; 
+margin: 10px; 
+margin-bottom: 15px; 
+} 
+.leftform{ 
+float: left; 
+text-align: left; 
+} 
+#footer { 
+clear: both; 
+color: #999999; 
+padding: 10px; 
+padding-left: 20px; 
+} 
+/*********** Content Styles ***********/ 
+.section h4 { 
+margin: 2px; 
+padding: 5px; 
+font-size: 12px; 
+font-weight: bold; 
+color: #333333;} 
+form{display: inline;} 
+.categories strong{ 
+color: #999999; 
+} 
+--> 
+ </style> 
+  
+ <div id="wrapper"> 
+  
+ <div id="header"> 
+ <h4>您输入的地址无法访问</h4> 
+ <div class="desc">有可能是您输入的地址有误或者是该网站暂时无法访问</div> 
+ </div> 
+  
+ <div class="content"> 
+ <script type="text/javascript"> 
+ //var url = external.max_getString(0);
+  var url ="野狼网络 http://www.yelangsem.com"
+ var autoRefresh=external.max_getString(1); 
+ if(autoRefresh=="1"){ 
+ autoRefresh=1; 
+ }else{ 
+ autoRefresh=0; 
+ } 
+  
+ function HTMLEncode(str){ 
+ if(str==undefined){ return ""; } 
+ str = str.replace(/\&/g, "&amp;"); 
+ str = str.replace(/\>/g, "&gt;"); 
+ str = str.replace(/\</g, "&lt;"); 
+ str = str.replace(/\"/g, "&quot;"); 
+str = str.replace(/\'/g, "'"); 
+return str; 
+} 
+  
+function enableAutoRefresh(flag){ 
+if(flag==1){ 
+external.put_string("1",url); 
+location.reload(); 
+}else{ 
+external.put_string("",url); 
+location.reload(); 
+} 
+} 
+  
+function go(url){ 
+document.location=url; 
+} 
+  
+if(autoRefresh==1){ 
+window.setInterval("go(url)",5000); 
+} 
+</script> 
+ <div class="section"> 
+ <h4>有可能是您输入的地址有误或者是该网站暂时无法访问</h4> 
+ <div style="margin-left: 20px;"> 
+ <script>document.write('<a href="'+HTMLEncode(url)+'">'+HTMLEncode(url)+'</a>')</script> 
+ &nbsp;&nbsp; 
+ <script> 
+ if(autoRefresh==0){ 
+ document.write('<a href="javascript:enableAutoRefresh(1)">[每 10 秒自动重试]</a>') 
+ }else{ 
+ document.write('<a href="javascript:enableAutoRefresh(0)">[停止自动重试]</a>') 
+ } 
+ </script> 
+ </div> 
+ </div> 
+  
+ <div class="section"> 
+ <h4>您可以通过搜索查找相关资源:</h4> 
+ <div class="leftform"> 
+ <form action="http://www.baidu.com/baidu" target="_blank"> 
+ <table border="0" cellpadding="0" cellspacing="5"> 
+ <tr> 
+ <td ><input name="word" type="text" id="word" value="野狼工作室" size="40"></td> 
+ <td valign="top"><input type="submit" size="15" value="百度搜索"></td> 
+ </tr> 
+ </table> 
+ </form> 
+ <script>document.getElementById("word").value=url;</script> 
+  
+ <form action="http://www.google.com/search" target="_blank"> 
+ <table border="0" cellpadding="0" cellspacing="5"> 
+ <tr> 
+ <td ><input name="q" type="text" id="q" value="www.yelangsem.com" size="40"></td> 
+ <td valign="top"><input type="submit" size="15" value="Google"></td> 
+ </tr> 
+ </table> 
+ </form> 
+ <script>document.getElementById("q").value=url;</script> 
+  
+ <form action="http://search.yahoo.com/bin/search" target="_blank"> 
+ <table border="0" cellpadding="0" cellspacing="5"> 
+ <tr> 
+ <td ><input name="p" type="text" id="ya" value="中小企业网络营销策划、网站优化推广、网站建设、seo服务专业提供商" size="40"></td> 
+ <td valign="top"><input type="submit" size="15" value="Yahoo"></td> 
+ </tr> 
+ </table> 
+ </form> 
+ <script>document.getElementById("ya").value=url;</script> 
+ </div> 
+ </div> 
+  
+ </div> 
+  
+ <div id="footer"> 
+ Powered By <a href="http://www.yelangsem.com" target="_parent">www.yelangsem.com</a> </div> 
+  
+ </div> 
+ </body> 
+ </html> 

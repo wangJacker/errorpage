@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gbk" />
+<title>您访问的页面不存在！10秒后自动返回首页</title>
+<style type="text/css">
+body{margin:0;padding:0;font:14px/1.6 Arial,Sans-serif;}
+a:link,a:visited{color:#007ab7;text-decoration:none; }
+h1{
+	position:relative;
+	z-index:2;
+	width:536px;
+	height:0;
+	margin:60px auto 15px;
+	padding:330px 0 0;
+	overflow:hidden;
+	xxxxborder:1px solid;
+	background-image: url(404/Main.jpg);
+	background-repeat: no-repeat;
+}
+h2{
+	position:absolute;
+	top:17px;
+	left:187px;
+	margin:0;
+	font-size:0;
+	text-indent:-999px;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	cursor:default;
+	width: 534px;
+}
+h2 em{display:block;font:italic bold 200px/120px "Times New Roman",Times,Serif;text-indent:0;letter-spacing:-5px;color:rgba(216,226,244,0.3);}
+.link a{margin-right:1em; font-size:16px}
+.link,.texts{width:540px;margin:0 auto 15px;color:#505050;}
+.texts{line-height:2;}
+.texts dd{margin:0;padding:0 0 0 15px;}
+.texts ul{margin:0;padding:0;}
+.portal{color:#505050;text-align:center;white-space:nowrap;word-spacing:0.45em;}
+.portal a:link,.portal a:visited{color:#505050;word-spacing:0;}
+.portal a:hover,.portal a:active{color:#007ab7;}
+.portal span{display:inline-block;height:38px;line-height:35px;}
+.portal span span{padding:0 0 0 20px;}
+.portal span span span{padding:0 20px 0 0;background-position:100% -80px;}
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 65px;
+}
+#time{ color:#F00; font-weight:bold}
+</style>
+<!--[if lte IE 8]>
+<style type="text/css">
+h2 em{color:#e4ebf8;}
+</style>
+<![endif]-->
+<!--提醒：野狼网络提供技术支持QQ1615241386，如换空间在成返回码错误，请直接联系我们免费配置-->
+</head>
+<body>
+    <h1></h1>
+    <h2>: 您所查找的页面不存在,可能已被删除或您输错了网址!</h2>
+<p class="link">
+       <a href="http://www.yelangsem.com" id="addr"  hidfocus="true">&#9666;返回首页</a>  目前倒计时<span id="time">10</span> 秒后将自动返回首页
+    </p>
+    
+    
+    <script type="text/javascript">
+var el = document.getElementById("time");
+var request = '/dfdfdf';
+if(request.length > 0){
+	var reg = /^\/(\w+)\//;
+	var arr = request.match(reg);
+	if(arr){
+		switch(arr[1]){
+			case "musicLibrary":
+				request = "http://www.yelangsem.com/"; 
+				break;
+			case "mv":
+				request = "http://www.yelangsem.com/"; 
+				break;
+			case "fm":
+				request = "http://www.yelangsem.com/"; 
+				break;
+			case "musicrank2":
+				request = "http://www.yelangsem.com/"; 
+				break;
+			case "musicrank3":
+				request = "http://www.yelangsem.com/"; 
+				break;
+			case "musicrankk7":
+				request = "http://www.yelangsem.com/";  
+				break;
+			case "musicranks":
+				break;
+			case "appstore":
+				break;
+			default:
+				request = "http://www.yelangsem.com/";
+		}
+	} else {
+		request = "http://www.yelangsem.com/";
+	}
+} else {
+	request = "http://www.yelangsem.com/";
+}
+//alert(request)
+document.getElementById("addr").href = request;
+
+setInterval(function(){
+	var val = Number(el.innerHTML);
+	if(val <= 1){
+		location.replace(request);	
+	}else{
+		el.innerHTML = val - 1;
+	}
+},1000)
+</script>
+    <dl class="texts">
+        <dt>我们正在联系火星总部查找您所需要的页面.请返回等待信息..</dt>
+<dd>
+            <ul>
+                <li>不要返回吗?</li>
+                <li>确定不要返回吗?</li>
+                <li>真的真的确定不要返回吗?</li>
+                <li>好吧.还是随便你要不要真的确定返回吧</li>
+            </ul>
+        </dd>
+    </dl>
+
+    </span></span></span></p>
+</body>
+</html>

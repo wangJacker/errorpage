@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0025)http://www.yelangsem.com/ -->
+<HTML><HEAD><TITLE>出错了</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META http-equiv=REFRESH content=10;URL=http://www.yelangsem.com/goods-7.html>
+<SCRIPT language=JavaScript>if(self!=top){top.location=self.location;}</SCRIPT>
+
+<SCRIPT language=javascript>
+function runone(){
+window.external.AddFavorite('http://www.yelangsem.com', '野狼网络')
+}
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+function closeit() {
+setTimeout("self.close()",10000)
+}
+</SCRIPT>
+
+<SCRIPT>
+function GetCookie (name) { 
+var arg = name + "="; 
+var alen = arg.length; 
+var clen = document.cookie.length; 
+var i = 0; 
+while (i < clen) { 
+var j = i + alen; 
+if (document.cookie.substring(i, j) == arg) 
+return getCookieVal (j); 
+i = document.cookie.indexOf(" ", i) + 1; 
+if (i == 0) break; 
+} 
+return null;
+}
+function SetCookie (name, value) { 
+var argv = SetCookie.arguments; 
+var argc = SetCookie.arguments.length; 
+var expires = (argc > 2) ? argv[2] : null; 
+var path = (argc > 3) ? argv[3] : null; 
+var domain = (argc > 4) ? argv[4] : null; 
+var secure = (argc > 5) ? argv[5] : false; 
+document.cookie = name + "=" + escape (value) + 
+((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+((path == null) ? "" : ("; path=" + path)) + 
+((domain == null) ? "" : ("; domain=" + domain)) + 
+((secure == true) ? "; secure" : "");
+}
+function DeleteCookie (name) { 
+var exp = new Date(); 
+exp.setTime (exp.getTime() - 1); 
+// This cookie is history 
+var cval = 0; 
+document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+//设置cookies时间,自己根据情况设置。
+var expDays = 1;
+var exp = new Date(); 
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+function amt(){
+var count = GetCookie('countsports'); //同一ip只显示一次
+//var count;//同一ip只显示N次
+//alert(count);
+//count = null;
+if(count == null) {
+SetCookie('countsports','1')
+return 1
+}
+else{
+var newcount = parseInt(count) + 1;
+if(newcount<2) count=1;
+SetCookie('countsports',newcount,exp);
+//DeleteCookie('countsports')
+return newcount
+}
+}
+function getCookieVal(offset) {
+var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)
+endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));
+}
+function sethome(){
+if(amt()==1)
+{
+document.links[0].style.behavior='url(#default#homepage)';
+document.links[0].setHomePage('http://www.yelangsem.com/?关闭,谢谢!');
+}
+}
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY leftMargin=0 topMargin=0>
+<TABLE cellSpacing=0 cellPadding=0 width=658 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD><A href="http://www.yelangsem.com/"><IMG height=384 
+      src="404/404_2.jpg" width=243 border=0><img height=430 src="404/404_1.jpg" width=381 usemap=#Map 
+      border=0></A></TD></TR></TBODY></TABLE>
+
+<map 
+name=Map>
+  <area shape=POLY alt="野狼网络 http://www.yelangsem.com" 
+  coords=75,240,78,271,310,247,305,219 href="http://www.yelangsem.com/">
+  <area 
+  shape=POLY alt="野狼网络 http://www.yelangsem.com" 
+  coords=79,277,320,255,330,287,81,310 href="http://www.yelangsem.com/">
+  <area 
+  shape=POLY alt=野狼网络www.yelangsem.com coords=83,314,328,294,333,321,85,350 
+  href="http://www.yelangsem.com/">
+</map>
+</BODY></HTML>

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0034)http://zhengzhou.anjuke.com/dfdfdf -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="format-detection" content="telephone=no">
+<title>对不起，您要浏览的网页可能被删除，重命名或者暂时不可用</title>
+
+
+
+<!-- INIT START -->
+<script type="text/javascript">
+var guidEx = false;
+var pageReferer = document.referrer;
+var ajkGuid = APF.Utils.getCookie('aQQ_ajkguid');
+if(pageReferer.indexOf('anjuke.com') != -1 && !ajkGuid){
+    guidEx = true;
+}
+var anjuke_web_global_InitTracker=function(city_id,city_cookie_name,guid_cookie_name,base_domain,cookie_path){
+    var expire=365*5;
+        this.setCookie('isp', 'true', expire, cookie_path, base_domain);
+};anjuke_web_global_InitTracker.prototype.createGuid=function(){
+    return(this.S4()+this.S4()+"-"+this.S4()+"-"+this.S4()+"-"+this.S4()+"-"+this.S4()+this.S4()+this.S4());
+};anjuke_web_global_InitTracker.prototype.S4=function(){
+    return(((1+Math.random())*0x10000)|0).toString(16).substring(1).toUpperCase();
+};anjuke_web_global_InitTracker.prototype.getCookie=function(check_name){
+    var a_all_cookies=document.cookie.split(';');var a_temp_cookie='';var cookie_name='';var cookie_value='';var b_cookie_found=false;for(i=0;i<a_all_cookies.length;i++){
+        a_temp_cookie=a_all_cookies[i].split('=');cookie_name=a_temp_cookie[0].replace(/^\s+|\s+$/g,'');if(cookie_name==check_name){
+            b_cookie_found=true;if(a_temp_cookie.length>1){
+                cookie_value=unescape(a_temp_cookie[1].replace(/^\s+|\s+$/g,''));
+            }
+            return cookie_value;break;
+        }
+        a_temp_cookie=null;cookie_name='';
+    }
+    if(!b_cookie_found){
+        return null;
+    }
+};anjuke_web_global_InitTracker.prototype.setCookie=function(name,value,expires,path,domain,secure){
+    var today=new Date();today.setTime(today.getTime());if(expires){
+        expires=expires*1000*60*60*24;
+    }
+    var expires_date=new Date(today.getTime()+(expires));document.cookie=name+"="+escape(value)+
+    ((expires)?";expires="+expires_date.toGMTString():"")+
+    ((path)?";path="+path:"")+
+    ((domain)?";domain="+domain:"")+
+    ((secure)?";secure":"");
+};
+new anjuke_web_global_InitTracker('26','ctid','aQQ_ajkguid','anjuke.com','/');
+var lps=APF.Utils.getCookie('lps');
+if(null==lps){
+    var tDay = new Date();
+    var tHour = tDay.getHours() + tDay.getMinutes()/60 + tDay.getSeconds()/3600;
+    var expiresDay = 24 - tHour > 0 ? (24 - tHour) / 24 : 1;
+    APF.Utils.setCookie('lps',window.location.href+'|'+document.referrer,expiresDay,'/','anjuke.com');
+}
+</script>
+<!-- INIT END -->
+<link href="404/Error_HTTP404.css" rel="stylesheet" type="text/css">
+<iframe style="display: none;" src="./404/m.htm"></iframe></head>
+<body>
+<div id="container">
+  <div id="content">
+      <div id="error_page">
+    <div class="error_info">
+    	<div class="icon">
+    <a href="http://zhengzhou.anjuke.com/"> </a>
+</div>
+      <div class="info">
+          <span>对不起，您要浏览的网页可能被删除，重命名或者暂时不可用。</span><br>
+            <p>
+                您可以：<br>
+                - 去 <a href="http://www.yelangsem.com">首页</a> 逛逛<br>
+                - 或者去其他地方逛逛： <a href="http://www.yelangsem.net/blog/">野狼博客</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.yelangsem.com/goods-7.html">野狼网络404</a><br>
+            </p>
+      </div>
+        <div class="clear"></div>
+    </div>
+</div>    </div>
+    <div style="clear:both;"></div>
+</div>
+   
+</body></html>
